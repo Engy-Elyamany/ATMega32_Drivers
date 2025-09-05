@@ -1,13 +1,7 @@
 /*
- * program2.c
- *
- * Created: 9/5/2025 6:35:17 AM
- *  Author: drelh
- */ 
-/*
 *  Author : Engy Elyamany
 *  Layer  : HAL
-*  SWC    : LED
+*  SWC    : SSD
 *
 */
 
@@ -19,18 +13,6 @@
 #include "SSD_config.h"
 #include "SSD_interface.h"
 #include "SSD_private.h"
-
-/*
-typedef struct
-{
-	u8 DataPort;
-	u8 EnablePort;
-	u8 EnablePin;
-	u8 CommonType;
-	
-}SSD_Configuration;
-
-*/
 
 static u8 seven_segment[10] = {
 	0b00111111,
