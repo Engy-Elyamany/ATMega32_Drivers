@@ -19,6 +19,7 @@ void LED_voidInit(LED_Configuration *target_Led)
 {
 	/*Set Pin Direction to output*/
 	DIO_u8SetPinDirection(target_Led->Port,target_Led->Pin,DIO_u8PIN_OUTPUT);
+	
 }
 
 void LED_voidLedON(LED_Configuration *target_Led)
